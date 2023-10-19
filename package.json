@@ -1,0 +1,11 @@
+{
+  "name": "react-redux-course",
+  "version": "1.0.0",
+  "description": "Modern React with Redux [2023 Update]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Colmenarez",
+  "license": "ISC"
+}
