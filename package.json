@@ -4,8 +4,20 @@
   "description": "Modern React with Redux [2023 Update]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "author": "Fernando Colmenarez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commitizen": "^4.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
