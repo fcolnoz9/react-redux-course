@@ -12,12 +12,12 @@ function App() {
 		setBooks(updatedBooks);
 	}
 
-	const editBookTitleById = (id, newTitle)=>{
-		const updatedBooks = books.map((book)=>{
-			return (book.id === id) ? {...book,title: newTitle} : book;
+	const editBookTitleById = (id, newTitle) => {
+		const updatedBooks = books.map((book) => {
+			return (book.id === id) ? {...book, title: newTitle} : book;
 		});
 		setBooks(updatedBooks);
-	}
+	};
 
 	const createBook = (title) => {
 		const newBook = {
